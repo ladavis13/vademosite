@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-search",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-29T14:51:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.va.gov/",
+    "originPage": "VA.gov Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "search-tools",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + search input + link list | heading + link list",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "search tool sections with accompanying link lists",
+      "two-column utility layouts with navigation links",
+      "homepage quick-access sections"
+    ],
+    "notSuitableFor": [
+      "image-heavy column layouts",
+      "promotional content with media",
+      "single column content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T14:51:00.000Z"
+  }
+}
