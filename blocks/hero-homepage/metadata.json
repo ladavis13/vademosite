@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-homepage",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-29T14:51:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.va.gov/",
+    "originPage": "VA.gov Homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "homepage-hero",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + subheading + paragraph + CTA + account card",
+    "buttonCount": 2,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage landing sections",
+      "welcome pages with account creation prompts",
+      "dark background hero sections without background images"
+    ],
+    "notSuitableFor": [
+      "pages with hero background images",
+      "simple single-column hero sections",
+      "light background hero areas"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T14:51:00.000Z"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.va.gov/"
+      ],
+      "description": "VA.gov homepage with hero banner, benefit hubs, news, and resources",
+      "blocks": [
+        {
+          "name": "hero-homepage",
+          "instances": [
+            ".homepage-hero__wrapper"
+          ]
+        },
+        {
+          "name": "columns-search",
+          "instances": [
+            ".homepage-common-tasks"
+          ]
+        },
+        {
+          "name": "columns-promo",
+          "instances": [
+            ".homepage-blog"
+          ]
+        },
+        {
+          "name": "cards-benefit",
+          "instances": [
+            ".homepage-benefits-row"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".homepage-hero__wrapper",
+          "style": null,
+          "blocks": [
+            "hero-homepage"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Search and Top Pages",
+          "selector": ".homepage-common-tasks",
+          "style": null,
+          "blocks": [
+            "columns-search"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "VA News / Blog Promo",
+          "selector": ".vads-u-background-color--primary-dark",
+          "style": "dark",
+          "blocks": [
+            "columns-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Explore VA Benefits",
+          "selector": [
+            "section.vads-u-padding--2p5",
+            ".homepage-benefits-row"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-benefit"
+          ],
+          "defaultContent": [
+            "h2#explore-va-benefits-and-health"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Email Signup and Veterans Banner",
+          "selector": ".homepage-email-update-wrapper",
+          "style": "light-blue",
+          "blocks": [],
+          "defaultContent": [
+            "#email-signup-form",
+            "#vets-banner-1"
+          ]
+        }
+      ]
+    }
+  ]
+}

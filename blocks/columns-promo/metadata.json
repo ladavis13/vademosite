@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-promo",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-29T14:51:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.va.gov/",
+    "originPage": "VA.gov Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "promotional",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image | eyebrow + heading + paragraph + CTA",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional sections with image and text",
+      "news/blog highlight sections",
+      "dark background feature announcements"
+    ],
+    "notSuitableFor": [
+      "light background content sections",
+      "multi-row column layouts",
+      "text-only column layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T14:51:00.000Z"
+  }
+}

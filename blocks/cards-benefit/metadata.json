@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-benefit",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-29T14:51:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.va.gov/",
+    "originPage": "VA.gov Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "benefit-categories",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + linked heading + description paragraph",
+    "buttonCount": 0,
+    "imageCount": 12
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "benefit category grids with icons",
+      "service directory listings",
+      "feature grids with icon + title + description pattern"
+    ],
+    "notSuitableFor": [
+      "photo-heavy card grids",
+      "cards with multiple CTAs",
+      "single-column card lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-29T14:51:00.000Z"
+  }
+}

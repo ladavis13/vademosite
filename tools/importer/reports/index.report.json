@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.va.gov/",
+  "path": "index",
+  "timestamp": "2026-05-29T15:01:16.341Z",
+  "title": "VA.gov Home | Veterans Affairs",
+  "template": "homepage",
+  "blocks": [
+    "hero-homepage",
+    "columns-search",
+    "columns-promo",
+    "cards-benefit",
+    "cards-benefit",
+    "cards-benefit",
+    "cards-benefit"
+  ]
+}
